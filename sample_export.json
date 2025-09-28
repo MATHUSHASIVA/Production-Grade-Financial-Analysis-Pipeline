@@ -1,0 +1,17 @@
+{
+  "ticker": "NVDA",
+  "price_data": [
+    {"date": "2023-01-01", "open": 150.0, "high": 155.0, "low": 149.0, "close": 154.0, "volume": 10000000},
+    {"date": "2023-01-02", "open": 154.0, "high": 158.0, "low": 153.0, "close": 157.0, "volume": 12000000}
+  ],
+  "fundamentals": [
+    {"as_of": "2022-12-31", "ticker": "NVDA", "book_value": 20.5, "total_assets": 100.0, "total_liabilities": 40.0, "pe_ratio": 30.0, "pb_ratio": 7.5, "eps": 2.5, "revenue": 500.0, "net_income": 50.0, "enterprise_value": 200.0, "source": "quarterly"}
+  ],
+  "daily_metrics": [
+    {"date": "2023-01-01", "ticker": "NVDA", "close": 154.0, "sma_50": 154.0, "sma_200": 154.0, "high_52w": 154.0, "pct_from_high_52w": 0.0, "book_value_per_share": 20.5, "price_to_book": 7.512, "enterprise_value": 200.0},
+    {"date": "2023-01-02", "ticker": "NVDA", "close": 157.0, "sma_50": 155.5, "sma_200": 155.5, "high_52w": 157.0, "pct_from_high_52w": 0.0, "book_value_per_share": 20.5, "price_to_book": 7.658, "enterprise_value": 200.0}
+  ],
+  "signals": [
+    {"date": "2023-01-02", "ticker": "NVDA", "signal_type": "golden_cross", "meta": null}
+  ]
+}
