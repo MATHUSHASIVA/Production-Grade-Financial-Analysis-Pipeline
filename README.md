@@ -16,10 +16,7 @@ A production-grade, modular financial analysis pipeline for screening stocks, ca
 ## Installation
 ```bash
 # Recommended: use uv for fast, modern dependency management
-uv pip install   # for legacy support
-# or, for modern workflow:
-uv venv .venv
-uv pip install -e .
+uv pip install   
 uv add pandas yfinance pydantic "typer[all]" sqlalchemy pyyaml
 uv add --dev ruff pytest
 ```
