@@ -39,21 +39,11 @@ python -m financial_analyzer.src.main --ticker NVDA --output nvda_results.json
 - `src/main.py` — Typer CLI orchestrator
 - `tests/` — Pytest-based unit tests for all modules
 
-## Configuration
-- Edit `config.yaml.example` to set up custom parameters (if needed)
 
 ## Testing
 ```bash
-pytest tests --disable-warnings -v
+pytest financial_analyzer/tests --disable-warnings -v
 ```
 
-## Extending
-- Add new technical/fundamental metrics in `processor.py`
-- Add new signals in `signals.py`
-- Add new CLI commands in `main.py`
 
-## Requirements
-All dependencies are tracked in `pyproject.toml` (managed by uv). You do not need `requirements.txt` if using uv.
 
-## License
-MIT
